@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div>
 
-            <button className='py-4 px-5 bg-black rounded-sm text-white capitalize'>Hire Me</button>
+            <button className='py-4 px-5 bg-black rounded-sm text-white capitalize font-my_font'>Let’s Chat</button>
         </div>
       </Flex>
      
