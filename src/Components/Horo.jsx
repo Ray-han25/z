@@ -34,6 +34,9 @@ const Horo = () => {
 
               Based in Bangladesh
             </h2>
+            <h3 className='w-144.25 text-[#71717A] text-[16px] font-normal font-my_font mt-8'>
+              I’m a self-taught React Developer focused on building modern, responsive, and user-friendly web applications. I enjoy creating clean, maintainable code and smooth user experiences using React, JavaScript, HTML, CSS, and Tailwind CSS. I’m continuously learning and improving my skills to turn ideas into fast and engaging digital experiences.
+            </h3>
           </div>
           <div></div>
         </Flex>
