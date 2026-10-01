@@ -1,15 +1,24 @@
 import React from 'react'
 import Cantainer from './Cantainer'
 import Flex from './Flex'
-import Logo from '../assets/Logo.png'
+import { LuMessageSquare } from "react-icons/lu";
+import { RiArrowRightUpLine } from "react-icons/ri";
 
-const Navbar = () => {
+
+
+
+const Navbar = ({className}) => {
   return (
-    <div className=' py-6 mb-15'>
+  <div className={` w-full py-6 mb-15 ${className} px-40`} >
     
     <Cantainer>
       <Flex className={`justify-between items-center`}>
-        <div className='w-12.75 h-10 bg-white'><img src={Logo} alt="Logo" /></div>
+<div className=''>
+  <div className='w-10 h-10 rounded-lg bg-black font-bold font-log text-[30px] text-white flex justify-center items-center'>
+    R
+  </div>
+  <h3 className='text-[13px] text-black font-normal font-log w-fit'>Rayhan</h3>
+</div>
         <div>
             <ul className={` flex font-semibold text-[20px] text-black gap-8 font-my_font`}>
                 <li>About Me</li>
@@ -18,9 +27,15 @@ const Navbar = () => {
                 <li>Contact me</li>
             </ul>
         </div>
-        <div>
+        <div className=''>
 
-            <button className='py-4 px-5 bg-black rounded-sm text-white capitalize font-my_font'>Let’s Chat</button>
+           
+            <a href="" className='py-3 px-4 bg-black rounded-full text-white font-my_font text-[12px] flex items-center gap-2'>
+              <LuMessageSquare />
+              <span>Let’s Chat</span>
+              <RiArrowRightUpLine />
+
+            </a>
         </div>
       </Flex>
      

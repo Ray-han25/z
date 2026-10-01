@@ -1,12 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
  @import "tailwindcss";
 @theme {
   --breakpoint-*: initial;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
-  --breakpoint-lg: 1280px;
-  --font-my_font: "Sora", sans-serif
+  --breakpoint-lx: 1280px;
+  --font-my_font: "Sora", sans-serif;
+  --font-log:"Shafarik", system-ui;
 }
 @utility container {
   margin-inline: auto;
