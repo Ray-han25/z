@@ -20,11 +20,11 @@ const Navbar = ({className}) => {
   <h3 className='text-[13px] text-black font-normal font-log w-fit'>Rayhan</h3>
 </div>
         <div>
-            <ul className={` flex font-semibold text-[20px] text-black gap-8 font-my_font`}>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Project</li>
-                <li>Contact me</li>
+            <ul className={` flex font-semibold text-[12px] text-gray-400  gap-8 font-my_font bg-[#f7f7f7]  border border-gray-200 rounded-full py-3 px-4`}>
+                <li className='hover:text-black duration-300  cursor-pointer'>About Me</li>
+                <li className='hover:text-black duration-300 cursor-pointer'>Skills</li>
+                <li className='hover:text-black duration-300 cursor-pointer'>Project</li>
+                <li className='hover:text-black duration-300 cursor-pointer'>Contact me</li>
             </ul>
         </div>
         <div className=''>

@@ -15,9 +15,9 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const Horo = () => {
   return (
-    <div>
+    <div className='border border-[#E5E5E5]'>
       <Cantainer>
-        <Flex className='border-b border-l border-r border-[#E5E5E5] pt-30 p-10'>
+        <Flex className=' border-l border-r border-[#E5E5E5] pt-30 p-10'>
 
           <div className='p-10 '>
             <Flex className={` mb-10 py-3 px-6 w-fit gap-3 items-center bg-[#F7F7F7] rounded-full border border-gray-300`}>
