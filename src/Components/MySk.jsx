@@ -12,22 +12,12 @@ import { BsGit } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineApi } from "react-icons/ai";
 import { DiResponsive } from "react-icons/di";
-
-
-
-
-
-
-
-
-
-
 const MySk = () => {
   return (
     <>
     <div className='mb-14'>
         <Cantainer>
-            <CommonText className={`mt-15`}/>
+            <CommonText className={`mt-15`} text={`My`} texttow={`Skills`}/>
             <div className='mt-6 flex flex-wrap gap-[71.5px]'>
               <SkComp Logo={<FaHtml5 />} Text={"HTML5"} LogoColor={"text-[#e96227]"}/>
               <SkComp Logo={<FaCss3Alt />} Text={"CSS3"} LogoColor={'text-[#2363e9]'}/>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CommonText = ({className}) => {
+const CommonText = ({className,text,texttow,}) => {
     return (
         <>
-            <h2 className={`text-[48px] text-black font-my_font font-normal text-center ${className}`}>My<span className='font-extrabold'>Skills</span></h2>
+            <h2 className={`text-[48px] text-black font-my_font font-normal text-center ${className}`}>{text}<span className='font-extrabold'>{texttow}</span></h2>
         </>
     )
 }
