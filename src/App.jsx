@@ -5,6 +5,7 @@ import Cursol from './Components/Cursol'
 import MySk from './Components/MySk'
 import About from './Components/About'
 import MyProjct from './Components/MyProjct'
+import Contai from './Components/Contai'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <MySk />
       <About/>
       <MyProjct/>
+      <Contai/>
 
 
 
