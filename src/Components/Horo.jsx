@@ -49,11 +49,14 @@ const Horo = () => {
                 <span>Explore Project</span>
                 <span><FaArrowDown /></span>
               </div>
-              <div className='p-4 px-5 rounded-full bg-black text-white flex items-center gap-3'>
-                <span>Let’s Chat</span>
-                <span><RiArrowRightUpLine />
-                </span>
-              </div>
+              <a href="https://wa.me/8801873848214?text=Hello%20Rayhan%2C%20I%20would%20like%20to%20discuss%20a%20project" target='_blank'>
+              <button className=' group relative overflow-hidden px-6 py-3 font-semibold border-2 border-black bg-black rounded-full cursor-pointer'>
+                <span className=' absolute inset-0 bg-white rounded-full  scale-0 group-hover:scale-150 transition-transform duration-500'></span>
+                <span className='  relative z-10 text-white group-hover:text-black transition-colors duration-500'>Let’s Chat</span>
+              </button>
+
+
+            </a>
             </Flex>
             <div className=' border-t border-[#E5E5E5] mt-10 mb-10 flex gap-10'>
               <div className=' flex items-center pt-7 text-black gap-2'>

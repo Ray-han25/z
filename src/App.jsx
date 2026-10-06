@@ -6,6 +6,7 @@ import MySk from './Components/MySk'
 import About from './Components/About'
 import MyProjct from './Components/MyProjct'
 import Contai from './Components/Contai'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <About/>
       <MyProjct/>
       <Contai/>
+      <Footer/>
 
 
 
