@@ -3,13 +3,14 @@ import Cantainer from './Cantainer'
 import Flex from './Flex'
 import { LuMessageSquare } from "react-icons/lu";
 import { RiArrowRightUpLine } from "react-icons/ri";
+import { Link, NavLink } from 'react-router';
 
 
 
 
 const Navbar = ({ className }) => {
   return (
-    <div className={` w-full py-6 mb-15 ${className} px-40 `} >
+    <div className={` w-full top-0 left-0 z-50 bg-white bg-opacity-50  ${className} fixed  py-4 mx-4`} >
 
       <Cantainer>
         <Flex className={`justify-between items-center`}>
@@ -23,7 +24,10 @@ const Navbar = ({ className }) => {
             <ul className={` flex font-semibold text-[12px] text-gray-400  gap-8 font-my_font bg-[#f7f7f7]  border border-gray-200 rounded-full py-3 px-4`}>
               <li className='hover:text-black duration-300  cursor-pointer'>Home</li>
               <li className='hover:text-black duration-300  cursor-pointer'>About Me</li>
-              <li className='hover:text-black duration-300 cursor-pointer'>Skills</li>
+              <li className='hover:text-black duration-300 cursor-pointer'>
+
+                <a href="#skills">Skills</a>
+              </li>
               <li className='hover:text-black duration-300 cursor-pointer'>Project</li>
               <li className='hover:text-black duration-300 cursor-pointer'>Contact me</li>
             </ul>

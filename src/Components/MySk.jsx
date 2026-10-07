@@ -15,7 +15,7 @@ import { DiResponsive } from "react-icons/di";
 const MySk = () => {
   return (
     <>
-    <div className='mb-14'>
+    <section id='myskil' className='mb-14'>
         <Cantainer>
             <CommonText className={`mt-15`} text={`My`} texttow={`Skills`}/>
             <div className='mt-6 flex flex-wrap gap-[71.5px]'>
@@ -32,7 +32,7 @@ const MySk = () => {
 
             </div>
         </Cantainer>
-    </div>
+    </section>
     </>
   )
 }
