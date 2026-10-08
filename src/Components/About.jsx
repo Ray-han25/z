@@ -121,7 +121,9 @@ const About = () => {
                     
                 </Cantainer>
             </div>
-
+<div>
+    
+</div>
 
         </>
     )
