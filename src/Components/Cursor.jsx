@@ -58,7 +58,7 @@ const Cursor = () => {
 
   return (
     <>
-      {/* Outer Ring */}
+      {/* Outer Ring
       <motion.div
         className="fixed top-0 left-0 pointer-events-none z-500 rounded-full border border-black mix-blend-difference"
         animate={{
@@ -76,7 +76,7 @@ const Cursor = () => {
           damping: 28,
           mass: 0.1,
         }}
-      />
+      /> */}
 
       {/* Inner Dot */}
       <motion.div

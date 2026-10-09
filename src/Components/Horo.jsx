@@ -45,10 +45,13 @@ const Horo = () => {
               I’m a self-taught React Developer focused on building modern, responsive, and user-friendly web applications. I enjoy creating clean, maintainable code and smooth user experiences using React, JavaScript, HTML, CSS, and Tailwind CSS. I’m continuously learning and improving my skills to turn ideas into fast and engaging digital experiences.
             </h3>
             <Flex className=' mt-10 gap-5  '>
-              <div className=' py-4 px-5 bg-blue-300 rounded-full text-black flex items-center gap-3'>
-                <span>Explore Project</span>
-                <span><FaArrowDown /></span>
-              </div>
+             
+              
+               <button className=' group relative overflow-hidden px-6 py-3 font-semibold border-2 border-blue-300 bg-blue-300 rounded-full cursor-pointer'>
+                <span className=' absolute inset-0 bg-white rounded-full  scale-0 group-hover:scale-150 transition-transform duration-1000'></span>
+                <span className='  relative z-10 text-white group-hover:text-black transition-colors duration-1000'>Explore Project</span>
+              </button>
+             
               <a href="https://wa.me/8801873848214?text=Hello%20Rayhan%2C%20I%20would%20like%20to%20discuss%20a%20project" target='_blank'>
               <button className=' group relative overflow-hidden px-6 py-3 font-semibold border-2 border-black bg-black rounded-full cursor-pointer'>
                 <span className=' absolute inset-0 bg-white rounded-full  scale-0 group-hover:scale-150 transition-transform duration-1000'></span>

@@ -53,7 +53,7 @@ const Contai = () => {
                             </div>
                             <div>
                                 <h2 className='text-xs font-my_font text-gray-400'>Email</h2>
-                                <h2 className='text-[16px] font-semibold text-gray-950 font-my_font'>rayhanislamtoshar666666@gmail.com</h2>
+                                <h2 className='text-[16px] font-semibold text-gray-950 font-my_font'>arizraiayan.bd@gmail.com</h2>
                             </div>
                         </div>
                     </div>

@@ -37,8 +37,8 @@ const Navbar = ({ className }) => {
 
             <a href="https://wa.me/8801873848214?text=Hello%20Rayhan%2C%20I%20would%20like%20to%20discuss%20a%20project" target='_blank'>
               <button className=' group relative overflow-hidden px-6 py-3 font-semibold border-2 border-black bg-white rounded-full cursor-pointer'>
-                <span className=' absolute inset-0 bg-black rounded-full  scale-0 group-hover:scale-150 transition-transform duration-500'></span>
-                <span className='  relative z-10 text-black group-hover:text-white transition-colors duration-500'>Let’s Chat</span>
+                <span className=' absolute inset-0 bg-black rounded-full  scale-0 group-hover:scale-150 transition-transform duration-1000'></span>
+                <span className='  relative z-10 text-black group-hover:text-white transition-colors duration-1000'>Let’s Chat</span>
               </button>
 
 
